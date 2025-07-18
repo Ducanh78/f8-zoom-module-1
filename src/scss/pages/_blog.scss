@@ -1,0 +1,45 @@
+.our-regular-blog {
+  margin: 70px 0 150px 0;
+}
+
+.our-regular-blog-head p {
+  width: 470px;
+  padding: 20px 0 70px 0;
+  color: #586863;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.our-regular-blog .row div {
+  margin-bottom: 40px;
+}
+
+
+.our-regular-blog .row div p:nth-of-type(1) {
+  color: #0e1412;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 20px 0 13px 0;
+}
+
+.our-regular-blog .row div p:nth-of-type(2) {
+  color: #586863;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.our-regular-blog .container > div:last-child {
+  text-align: center;
+  padding-top: 15px
+}
+
+.our-regular-blog img {
+  width: 100%;
+}
+

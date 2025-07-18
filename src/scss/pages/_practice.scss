@@ -1,0 +1,112 @@
+.practice-page .row div:first-child .row div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.practice-page .container {
+  padding-top: 30px;
+}
+.practice-page .container > .row > div:last-child {
+  display: flex;
+  gap: 4px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.practice-page .container > .row > div:last-child p:last-child {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  font-family: "Manrope", sans-serif;
+}
+
+.practice-page {
+  background-color: #f8ebc9;
+  height: 127px;
+}
+
+.header-menu-practice-page li:first-child a {
+  color: #0e1412;
+  font-weight: 400;
+}
+
+.header-menu-practice-page li:nth-child(2) a {
+  color: #0e1412;
+}
+
+// Tulsa Car Accident Attorney
+.main-practice p {
+  color: #586863;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main-practice li {
+  color: #0e1412;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.main-practice .container:not(.loai-tru) {
+  width: 770px;
+}
+
+.tulsar-car-block h2 {
+  margin: 70px 0 18px 0;
+}
+
+.tulsar-car-block p + p {
+  margin-top: 30px;
+}
+
+// Causes of Automobiles Accidesnts
+.causes-of {
+  margin: 48px 0;
+}
+
+.causes-of p:nth-of-type(1) {
+  padding: 18px 0 28px 0;
+}
+
+.causes-of-list {
+  list-style: disc;
+  list-style-position: inside;
+  padding-bottom: 28px;
+}
+
+// How We Will handle Your Case?
+.how-we-will-text h2 {
+  margin: 48px 0 18px 0;
+}
+
+.how-we-will-text p + p {
+  padding-top: 30px;
+}
+
+// Compansation
+.compansation {
+  margin: 48px 0;
+}
+
+.compansation h2 {
+    padding-bottom: 18px
+}
+
+.compansation-list {
+  list-style: disc;
+  list-style-position: inside;
+  padding-top: 28px
+}
+
+// Call Our Law Firm Today
+.call-our {
+    margin-bottom: 150px;
+}
+
+.call-our h2 {
+    padding-bottom: 18px;
+}

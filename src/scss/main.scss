@@ -1,0 +1,101 @@
+@use "./reset";
+
+// Layout
+@use "./layout/grid";
+@use "./layout/header";
+@use "./layout/nav-dealing";
+@use "./layout/footer";
+
+// Pages
+@use "./pages/home";
+@use "./pages/about";
+@use "./pages/practice";
+@use "./pages/blog";
+@use "./pages/contact";
+
+// Components
+@use "./components/buttons";
+@use "./components/forms";
+@use "./components/course-item";
+
+// Common
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100px;
+}
+
+body {
+  font-size: 1.6rem;
+  margin-bottom: 50px;
+}
+
+button,
+input,
+textarea,
+select {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-family: "Manrope", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+p {
+  color: #0e1412;
+  font-family: "Roboto Slab";
+}
+
+h1 {
+  color: #0e1412;
+  font-family: "Roboto Slab", serif;
+  color: #0e1412;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 70px;
+}
+
+h2 {
+  color: #0e1412;
+  font-family: "Roboto Slab", serif;
+  color: 0e1412;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+h4 {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.row {
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+}

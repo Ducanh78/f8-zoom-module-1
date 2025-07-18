@@ -1,0 +1,118 @@
+.about-page .row div:first-child .row div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-page .container {
+  padding-top: 30px;
+}
+.about-page .container > .row > div:last-child {
+  display: flex;
+  gap: 4px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.about-page .container > .row > div:last-child p:last-child {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  font-family: "Manrope", sans-serif;
+}
+
+.about-page {
+  background-color: #f8ebc9;
+}
+
+.container-about-page {
+  height: 127px;
+}
+
+.header-menu-about-page li:first-child a {
+  color: #0e1412;
+  font-weight: 400;
+}
+
+.header-menu-about-page li:nth-child(2) a {
+  color: #fd6038;
+  font-weight: 600;
+}
+
+// You can count on the undivided attention of a team that prizes relationships over profits.
+.you-can-count {
+  margin: 70px 0 150px 0;
+}
+
+.you-can-count-text {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.you-can-count-text h2 {
+  display: inline-block;
+  width: 770px;
+}
+
+.you-can-count .set-relative > div img {
+  position: absolute;
+  bottom: 0;
+}
+
+.you-can-count .set-relative > div div {
+  position: absolute;
+  left: 35px;
+  bottom: 20px;
+}
+
+.you-can-count .set-relative > div h4 {
+  padding-bottom: 15px;
+}
+
+.you-can-count .set-relative > div p {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.you-can-count .set-relative > img:nth-of-type(2) {
+  position: absolute;
+  top: 43%;
+  left: 46%;
+}
+
+// Through And Complete Attention to Law 
+.through-complete {
+    margin-bottom: 150px;
+}
+
+.through-complete .set-relative img:nth-child(2) {
+    position: absolute;
+    bottom: 2px;
+    left: -15px;
+    z-index: -1;
+}
+
+// 20 Years of Experience In Various Cases
+.years-experience {
+    height: 368px;
+    background-color: #F8EBC9;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.years-experience .container {
+    padding: 100px 0
+}
+
+.years-experience .container p:first-child {
+    color: #0E1412;
+}
+
+.years-experience .container p:nth-of-type(2) {
+    width: 770px;
+}
+
+

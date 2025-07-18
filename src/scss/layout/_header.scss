@@ -1,0 +1,165 @@
+.background {
+  height: 859px;
+  background-color: #f8ebc9;
+}
+
+.header {
+  background-color: #f8ebc9;
+  height: 127px;
+}
+
+.header .row p {
+  white-space: nowrap;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.header-menu > li {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.header-menu li a {
+  white-space: nowrap;
+}
+
+.header-menu img {
+  width: 8px;
+  height: 4px;
+}
+
+.toggle {
+  text-align: start;
+}
+
+.header-logo {
+  text-align: center;
+}
+
+.header .container {
+  padding-top: 30px;
+}
+
+.header .container > .row > div:last-child {
+  display: flex;
+  gap: 4px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header .container > .row > div:last-child p:last-child {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  font-family: "Manrope", sans-serif;
+}
+
+.header-menu a {
+  transition: 0.3s ease-in-out;
+}
+
+.header-menu .set-relative:hover > a {
+  color: #fd6038;
+  font-weight: 600;
+}
+
+.header-menu li img {
+  transition: 0.3s ease-in-out;
+}
+
+.header-menu li:hover img {
+  filter: invert(56%) sepia(94%) saturate(500%) hue-rotate(-7deg)
+    brightness(98%);
+  transform: rotate(180deg);
+}
+
+// CHECKBOX
+.header-sidebar #toggle:checked ~ .header-sidebar-menu {
+  display: block;
+}
+
+.header-sidebar-menu {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 300px;
+}
+
+.header-sidebar-menu a {
+  transition: 0.3s ease-in-out;
+}
+
+.header-sidebar-menu a:hover {
+  background-color: #fd6038;
+}
+
+.header-sidebar-menu a {
+  display: block;
+  color: #fff;
+  padding: 10px 20px 10px 10px;
+  white-space: nowrap;
+}
+
+.header-sidebar-menu li:not(:last-child) {
+  border-bottom: 1px solid rgb(114, 114, 114);
+}
+
+.header-sidebar-menu {
+  position: absolute;
+  display: none;
+  top: 30px;
+}
+
+.toggle {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+// Sub-menu
+.header-menu {
+  position: relative;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 37px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 200px;
+}
+
+.sub-menu a {
+  display: block;
+  color: #fff;
+  padding: 10px 20px 10px 10px;
+  white-space: nowrap;
+}
+
+.sub-menu li:not(:last-child) {
+  border-bottom: 1px solid rgba(97, 97, 97, 0.2);
+}
+
+.sub-menu li {
+  transition: 0.3s ease-in-out;
+}
+
+.sub-menu li:hover {
+  background-color: #fd6038;
+}
+
+.header-menu .set-relative {
+  padding: 5px;
+}
+
+.header-menu .set-relative:hover .sub-menu {
+  display: block;
+}

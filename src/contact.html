@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <%- include("./partials/head.ejs") %>
+  </head>
+  <body>
+    <div class="wrapper">
+      <%- include("./partials/header.ejs") %>
+      <main>
+        <!-- We Are Always Ready To Hear For You. -->
+        <div class="always-ready">
+          <div class="always-ready-text tieu-de">
+            <p>Contact us</p>
+            <h2>We Are Always Ready To Hear For You.</h2>
+            <p>
+              The right move at the right time saves your investment. live the
+              dream of expanding your business.
+            </p>
+          </div>
+        </div>
+
+        <!-- INPUT -->
+        <div class="contact-page-input">
+          <div class="container">
+            <div class="row gy-2">
+              <div class="col-6">
+                <input type="text" placeholder="Enter your name" />
+              </div>
+
+              <div class="col-6">
+                <input type="text" placeholder="Comapy (optional)" />
+              </div>
+
+              <div class="col-6">
+              <input type="text" placeholder="Your email" />
+              </div>
+
+              <div class="col-6">
+                <input type="text" placeholder="Phone number" />
+              </div>
+
+              <div class="col-12">
+                <textarea class="my-textarea" placeholder="Tell us about yourself"></textarea>
+              </div>
+            </div>
+
+            <button>Contact us</button>
+          </div>
+        </div>
+      </main>
+      <%- include("./partials/footer.ejs") %>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
