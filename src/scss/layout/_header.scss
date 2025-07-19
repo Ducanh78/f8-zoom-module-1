@@ -85,13 +85,22 @@
 }
 
 // CHECKBOX
-.header-sidebar #toggle:checked ~ .header-sidebar-menu {
-  display: block;
-}
-
 .header-sidebar-menu {
+  position: absolute;
+  top: 30px;
   background-color: rgba(0, 0, 0, 0.8);
   width: 300px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  transform-origin: top;
+  transform: scaleY(0);
+}
+
+.header-sidebar #toggle:checked ~ .header-sidebar-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: scaleY(1);
 }
 
 .header-sidebar-menu a {
@@ -113,11 +122,7 @@
   border-bottom: 1px solid rgb(114, 114, 114);
 }
 
-.header-sidebar-menu {
-  position: absolute;
-  display: none;
-  top: 30px;
-}
+
 
 .toggle {
   font-size: 25px;
@@ -127,14 +132,6 @@
 // Sub-menu
 .header-menu {
   position: relative;
-}
-
-.sub-menu {
-  display: none;
-  position: absolute;
-  top: 37px;
-  background-color: rgba(0, 0, 0, 0.8);
-  width: 200px;
 }
 
 .sub-menu a {
@@ -160,6 +157,20 @@
   padding: 5px;
 }
 
+.sub-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  top: 37px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 200px;
+}
+
 .header-menu .set-relative:hover .sub-menu {
-  display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: scaleY(1);
 }

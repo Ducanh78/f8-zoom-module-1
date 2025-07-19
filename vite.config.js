@@ -5,7 +5,9 @@ import path from "path";
 
 
 export default defineConfig({
-    base: "/",
+    base: process.env.NODE_ENV === "production"
+    ? "/f8-zoom-module-1/"
+    : "/",
     root: "src",
     publicDir: "../public",
     build: {
